@@ -4,7 +4,7 @@ date: 2021-05-19 13:40:59
 tags: Markdown
 categories: 效率工具
 ---
-## 标题
+### 标题
 ```
 # 一级标题
 ## 二级标题
@@ -18,7 +18,7 @@ categories: 效率工具
 
 <img src="/images/md_title.gif" width="50%" height="50%" align="center">
 
-## 段落换行
+### 段落换行
 ```
 注释：两行之间插入空行
 段落1
@@ -30,7 +30,7 @@ categories: 效率工具
 
 段落2
 <!--more-->
-## 字体
+### 字体
 ```
 _斜体文本_
 __粗体文本__
@@ -41,7 +41,7 @@ _斜体文本_
 __粗体文本__
 ___粗斜体文本___
 
-## 分割线
+### 分割线
 ```
 注释：减号空格减号空格减号空格
 - - -
@@ -49,7 +49,7 @@ ___粗斜体文本___
 显示效果：
 - - -
 
-## 删除线
+### 删除线
 ```
 注释：文字两端加上两个波浪线
 hello ~~我是删除线~~
@@ -57,14 +57,14 @@ hello ~~我是删除线~~
 显示效果：
 hello ~~我是删除线~~
 
-## 下划线
+### 下划线
 ```
 注释：下划线可通过<u>我是下划线文本</u>
 ```
 显示效果：
 <u>我是下划线文本</u>
 
-## 脚注
+### 脚注
 ```
 注释：脚注是对文本的补充说明
 脚注示例[^我是脚注]
@@ -73,8 +73,8 @@ hello ~~我是删除线~~
 显示效果：
 <img src="/images/md_jiaozhu.gif" width="50%" height="50%" align="center">
 
-## 列表
-### 无序列表
+### 列表
+#### 无序列表
 ```
 注释：-空格内容
 - 第一项
@@ -86,7 +86,7 @@ hello ~~我是删除线~~
 - 第二项
 - 第三项
 
-### 有序列表
+#### 有序列表
 
 ```
 注释：数字.空格内容
@@ -99,7 +99,7 @@ hello ~~我是删除线~~
 2. 第二项
 3. 第三项
 
-### 列表嵌套
+#### 列表嵌套
 ```
 注释：子列表的选项前面添加四个空格
 - 第一项
@@ -117,7 +117,7 @@ hello ~~我是删除线~~
     - 我是子列表项2.1
     - 我是子列表项2.2
 
-## 区块
+### 区块
 ```
 注释：>空格内容
 > 最外层
@@ -132,7 +132,7 @@ hello ~~我是删除线~~
 
 ___区块可以嵌套列表，列表可以嵌套区块___
 
-## 代码
+### 代码
 
 ``` python
 # 用 ``` 包裹一段代码，并指定一种语言（也可以不指定）
@@ -141,14 +141,14 @@ def log(*args,**kwargs):
 	print(*args.**kwargs)
 ```
 此处，`log`函数与`print`函数功能是一样的
-## 链接
+### 链接
 ```
 [这是我的个人网站](https://www.codejerry.top)
 ```
 显示效果：
 [这是我的个人网站](https://www.codejerry.top)
 
-## 图片
+### 图片
 ```
 方式1
 ![替代文本](https://codejerry.top/images/avatar.jpg "网站头像")
@@ -160,7 +160,7 @@ def log(*args,**kwargs):
 
 <img src="https://codejerry.top/images/avatar.jpg" width="20%" height="20%" align="center">
 
-## 表格
+### 表格
 ```
 注释：|分割不同的单元格，-分割表头和其他行
 |表头|表头|
@@ -180,15 +180,15 @@ def log(*args,**kwargs):
 显示效果：
 <img src="/images/md_table_align.jpg" width="50%" height="50%" align="center">
 
-## 高级技巧
-### 支持的 HTML 元素
+### 高级技巧
+#### 支持的 HTML 元素
 ```
 注释：目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br>等
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 ```
 显示效果：
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
-### 转义
+#### 转义
 ```
 注释：\加上待转义符号
 \\
@@ -199,7 +199,7 @@ def log(*args,**kwargs):
 \\
 \*
 \()
-### 公式
+#### 公式
 
 ```
 注释：使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式
@@ -215,6 +215,6 @@ $$
 显示效果：
 <img src="/images/md_math.jpg" width="50%" height="50%" align="center">
 
-## 参考
-[runoob.com Markdown 教程](https://www.runoob.com/markdown/md-tutorial.html)
+### 参考
+[runoob.com|Markdown 教程](https://www.runoob.com/markdown/md-tutorial.html)
 

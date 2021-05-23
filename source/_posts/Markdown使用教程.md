@@ -16,7 +16,7 @@ categories: 效率工具
 
 显示效果：
 
-<img src="/images/md_title.gif" width="50%" height="50%" align="center">
+<img src="/images/markdown/md_title.gif" width="50%" height="50%" align="center">
 
 ### 段落换行
 ```
@@ -71,7 +71,7 @@ hello ~~我是删除线~~
 [^我是脚注]: 对文本的补充说明！
 ```
 显示效果：
-<img src="/images/md_jiaozhu.gif" width="50%" height="50%" align="center">
+<img src="/images/markdown/md_jiaozhu.gif" width="50%" height="50%" align="center">
 
 ### 列表
 #### 无序列表
@@ -169,7 +169,7 @@ def log(*args,**kwargs):
 |单元格|单元格|
 ```
 显示效果：
-<img src="/images/md_table.jpg" width="50%" height="50%" align="center">
+<img src="/images/markdown/md_table.jpg" width="50%" height="50%" align="center">
 
 ```
 注释：设置表格对齐方式
@@ -178,7 +178,7 @@ def log(*args,**kwargs):
   :-:居中对齐
 ```
 显示效果：
-<img src="/images/md_table_align.jpg" width="50%" height="50%" align="center">
+<img src="/images/markdown/md_table_align.jpg" width="50%" height="50%" align="center">
 
 ### 高级技巧
 #### 支持的 HTML 元素
@@ -213,7 +213,7 @@ ${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
 ```
 显示效果：
-<img src="/images/md_math.jpg" width="50%" height="50%" align="center">
+<img src="/images/markdown/md_math.jpg" width="50%" height="50%" align="center">
 
 ### 参考
 [runoob.com|Markdown 教程](https://www.runoob.com/markdown/md-tutorial.html)

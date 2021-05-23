@@ -4,13 +4,10 @@ date: 2021-05-23 19:31:14
 tags: GitHub Actions,Hexo
 categories: 效率工具
 ---
-
 ### 介绍
 GitHub+Hexo 搭建个人博客非本文重点，请自行搜索。
 成功搭建博客以后，每次写完文章，通过执行 `hexo clean && hexo g -d` 来发布，当你文章比较多的时候，可能还需要等待很久，而且还可能会遇到本地安装的 `Node.js` 版本与 `Hexo` 不兼容的问题，利用 `GitHub Actions` 自动部署 `hexo` 到 `Github Pages`，只需在文章写完后运行`git push origin master`命令，等待20秒，文章自动发布成功。
-
 <!--more-->
-
 ### 前提
 1. 存放代码仓库 `blog_source`
 2. 存放静态博客页面仓库 `CodeingJerry.github.io`
@@ -105,7 +102,6 @@ jobs:
 ```
 ### 配置文件
 复制一份主题配置文件，重命名为 _config.theme.yml，放置blog_source根目录。
-
 最终目录结构
 ```
 blog_source (repository)
@@ -119,7 +115,6 @@ blog_source (repository)
 写一篇文章，push 到 blog_source 仓库的 master 分支，在此仓库 Actions 页面查看当前 task。
 <img src="/images/github_actions/github_actions.png" align="center">
 查看自己的博客，不出意外的话已经可以看到新添加的文章了。
-
 ### 参考
 [利用 Github Actions 自动部署 Hexo 博客](https://sanonz.github.io/2020/deploy-a-hexo-blog-from-github-actions/)
 [如何正确的使用 GitHub Actions 实现 Hexo 博客的 CICD](https://hdj.me/github-actions-hexo-cicd/)

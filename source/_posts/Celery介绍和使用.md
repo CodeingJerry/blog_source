@@ -169,12 +169,12 @@ celery_demo/
 ```
 celery worker -A celery_demo -l INFO
 ```
-<img src="/images/celery/worker.png" align="center">
+<img src="/images/celery/Celery_worker.png" align="center">
 再打开另一个终端，发送执行任务消息，进行如下操作
 ```
 python3 app.py
 ```
-<img src="/images/celery/worker_run.png" align="center">
+<img src="/images/celery/Celery_worker_run.png" align="center">
 
 #### 定时任务（Celery Beat）
 - step1:在之前celery_demo文件夹下celeryconfig.py文件中，添加如下代码
@@ -215,9 +215,9 @@ Removing corrupted schedule file 'celerybeat-schedule': error(22, 'Invalid argum
    # 用以下命令重新启动定时消息任务
    celery beat -A celery_demo -l INFO -S redbeat.RedBeatScheduler
 ```
-<img src="/images/celery/celery_beat.png" align="center">
+<img src="/images/celery/beat.png" align="center">
 对应worker端截图如下
-<img src="/images/celery/celery_beat_worker.png" align="center">
+<img src="/images/celery/beat_worker.png" align="center">
 
 ### 参考
 [Celery介绍和基本使用](https://zhuanlan.zhihu.com/p/64595171)

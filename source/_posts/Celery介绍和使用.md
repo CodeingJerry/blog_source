@@ -1,6 +1,7 @@
 ---
 title: Celery介绍和使用
 date: 2021-05-31 12:58:29
+updated: 2021-05-31 12:58:29
 tags: 
 - Celery 
 - 分布式任务
